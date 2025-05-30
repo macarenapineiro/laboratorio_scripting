@@ -1,6 +1,6 @@
 # Laboratorio de scripting en PowerShell
 
-Este laboratorio contiene tres scripts desarrollados en PowerShell para tareas básicas de automatización. Cada script es un reto de este laboratorio.
+Este laboratorio contiene tres scripts desarrollados en PowerShell, el cual el objetivo principal es aprender y aplicar los conceptos básicos para desarrollar tareas de automatización y administación del sistema operativo. Cada script es un reto de este laboratorio, además, como fue mencionado anteriormente este lboratorio se va a realizar en PowerShell, sin embargo se podría haber ejecutado en Bash.
 
 ## Reto 1: Mostrar información del sistema
 
@@ -8,7 +8,7 @@ Este laboratorio contiene tres scripts desarrollados en PowerShell para tareas b
 
 ### Funcionalidad
 
-Muestra la información del sistema de forma detalla, especificando la CPU, la memoria y los discos utilizados
+El objetivo principal de este script es mostrar la información del sistema de forma detalla, especificando los datos de la CPU, la memoria y los discos utilizados
 
 ## Reto 2: Listar los procesos que se encuentran en ejecución y finalizar uno
 
@@ -16,7 +16,7 @@ Muestra la información del sistema de forma detalla, especificando la CPU, la m
 
 ### Funcionalidad
 
-Listar todos los procesos que se encuentran activos ordenados por su uso de CPU. Para finalizar un proceso que se encuentra en ejecución se le solicita al usuario ingresar el nombre de un proceso y finalizarlo automáticamente.
+Para este script se tenía que listar todos los procesos que se encuentran activos, ordenandolos por su uso de CPU. Como también, se pedía finalizar un proceso que se encuentra en ejecución, para esto se le solicita al usuario ingresar el nombre de un proceso, para así finalizarlo automáticamente.
 
 ## Reto 3: Crear una carpeta con la fecha actual
 
@@ -24,14 +24,14 @@ Listar todos los procesos que se encuentran activos ordenados por su uso de CPU.
 
 ### Funcionalidad:
 
-Crea una carpeta en el directorio actual con el nombre de la fecha actual con este modelo (`yyyy-MM-dd`).
+Por último en este script se crea una carpeta en el directorio actual con el nombre de la fecha siguiendo este formato (`yyyy-MM-dd`).
 
 ## Como ejecutar los scripts
 
-1. Abrir PowerShell
+1. Abrir PowerShell.
 2. Navegar al directorio donde se encuentran los scripts utilizando:
    `cd Ruta\al\directorio`
-3. Para ejecutar el script utilice: `.\lab_script_reto1.ps1`
+3. Para poder ejecutar el script se debe colocar: `.\lab_script_reto1.ps1`
 
 ## Entorno utilizado
 
