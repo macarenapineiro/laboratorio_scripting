@@ -2,6 +2,9 @@
 
 #Muestra una tabla con los procesos en ejecucion, ordenados por uso de CPU
 Write-Host "Procesos en ejecucion:"
+#Get-Process muestra los procesos en ejecucion
+#Select-Object elige que columnas mostrar (Nombre, Id, CPU, WS)
+#Sort-Object ordena los procesos por uso de CPU en orden descendente
 Get-Process | Select-Object Name, Id, CPU, WS | Sort-Object CPU -Descending | Format-Table -AutoSize
 
 #Solicita al usuario el nombre del proceso a finalizar
